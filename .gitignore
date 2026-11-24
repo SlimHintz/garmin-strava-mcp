@@ -1,0 +1,32 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+*creds*.json
+*.pem
+*.key
+
+# data, logs, runtime state
+*.db
+*.db-*
+*.sqlite*
+*.log
+backups/
+data/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.bak*
